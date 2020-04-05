@@ -7,7 +7,9 @@ import time
 import threading
 import sys
 from ctypes import *
-print('V 7.1')
+
+
+
 user32 = windll.user32
 screensize = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
 if screensize == (1920, 1200):
